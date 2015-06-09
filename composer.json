@@ -1,0 +1,20 @@
+{
+  "name": "isty001/appcheck",
+  "description": "Check app meta-data",
+  "license": "propietary",
+  "authors": [
+    {
+      "name": "Farkasvölgyi István",
+      "email": "isty001@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "~4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src",
+      "App\\Tests\\": "tests"
+    }
+  }
+}
