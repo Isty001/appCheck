@@ -1,2 +1,6 @@
 vendor/
 .idea
+
+src/apps/RetroGo.ipa
+src/apps/RetroGo.apk
+src/apps/phoneapp-debug_ut.xap
