@@ -3,7 +3,7 @@
 
 namespace App\Tests\Information;
 
-use App\Information\iOSInformation;
+use App\Information\IOSInformation;
 
 class iOSTest extends \PHPUnit_Framework_TestCase
 {
@@ -15,7 +15,7 @@ class iOSTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstruct($title, $version)
     {
-        $info = new iOSInformation($title, $version);
+        $info = new IOSInformation($title, $version);
         $this->assertSame($title, $info->getTitle());
         $this->assertSame($version, $info->getVersion());
     }
